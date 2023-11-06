@@ -8,6 +8,12 @@ void scheduler :: inserir(size_t job){
 
 }
 
+void scheduler :: printPendingTasks(){
+    
+    for (size_t i = 0 ; i < IDList.size(); i++)
+        cout << IDList.at(i) << endl;
+}
+
 void policy1 :: pickup(){
     IDList.erase(IDList.begin());
         

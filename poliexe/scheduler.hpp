@@ -10,9 +10,8 @@ class scheduler
     protected:
         vector < size_t > IDList;
     public:
-        scheduler();
         void inserir(size_t job);
-        ~scheduler();
+        void printPendingTasks();
         virtual void pickup() = 0;
 };
 
