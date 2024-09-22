@@ -16,11 +16,7 @@ void scheduler :: printPendingTasks(){
 
 void policy1 :: pickup(){
     IDList.erase(IDList.begin());
-        
-
 }
 void policy2 :: pickup(){
     IDList.pop_back();
-    
-
 }

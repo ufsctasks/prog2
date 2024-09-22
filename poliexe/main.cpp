@@ -4,6 +4,8 @@ int main(){
     
     while (true)
     {
+        scheduler *p;
+        
         int option;
         cout << "TASK SCHEDULER SYSTEM - UFxC TSS" << endl;
         cout << "Select an option bellow:" << endl;
@@ -17,7 +19,6 @@ int main(){
         switch (option)
         {
         case 1:
-            scheduler *p;
             size_t i;
             cout << "choose a task id to input" << endl;
             cin >> i;
