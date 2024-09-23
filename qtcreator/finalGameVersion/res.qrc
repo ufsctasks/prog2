@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>bullet.jpeg</file>
+        <file>player.png</file>
+        <file>zombie.jpeg</file>
+        <file>creeper.jpeg</file>
+        <file>ghost.png</file>
+        <file>bullet1.png</file>
+        <file>zombie1.png</file>
+    </qresource>
+</RCC>
